@@ -41,6 +41,7 @@ body {
 
 .link {
   text-decoration: none;
+  color: inherit;
 }
 
 .nav-link {
@@ -104,6 +105,14 @@ body {
   color: var(--clr-secondary);
 }
 
+.team-section {
+  background-color: var(--clr-brand-inverted);
+}
+
+.team-member-card {
+  background-color: var(--clr-secondary-inverted);
+}
+
 .footer-background {
   background-color: var(--clr-secondary);
 }
@@ -131,4 +140,8 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border: 1px solid var(--clr-brand-interaction);
   color: var(--clr-secondary-inverted);
+}
+
+.filter-card {
+  text-decoration: none;
 }
