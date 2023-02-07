@@ -15,6 +15,11 @@ body {
   color: var(--clr-primary);
 }
 
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -37,11 +42,6 @@ body {
 
 .item-list {
   list-style-type: none;
-}
-
-.link {
-  text-decoration: none;
-  color: inherit;
 }
 
 .nav-link {
